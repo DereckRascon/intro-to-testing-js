@@ -90,7 +90,7 @@ describe("isEven", function() {
         expect(isEven(8)).toBe(true);
     });
     it("should return false when infinity is called", function(){
-        expect(isEven(true)).toBe(false);
+        expect(isEven()).toBe(false);
     });
 
 
